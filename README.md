@@ -14,7 +14,7 @@
 Create a social network application that can handle large amounts of unstructured data by using NoSQL as a database.
 
 ## Installation
-Open the terminal and type the following to install
+Open the terminal and type the following to install all packages and dependencies:
 ```
 npm install
 ```
