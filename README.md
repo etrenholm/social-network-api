@@ -49,11 +49,11 @@ npm start
 * Organized folder and file directory structure.
 * Installed Express...
 
-### STEP 2. - SETUP MODELS
+### STEP 2. - SETUP USER MODEL
 
-### STEP 3. - SETUP API ROUTES
+### STEP 3. - SETUP THOUGHT MODEL
 
-### STEP 5. - FINALIZE
+### STEP 4. - FINALIZE
 * Made various commits throughout process to save progress
 * Deployed to Heroku
 * Made tweaks and finished README.md

@@ -7,7 +7,6 @@ const {
     updateUser,
     deleteUser
 } = require('../../controllers/user-controller');
-const { update } = require('../../models/User');
 
 // GET and POST at /api/users
 router

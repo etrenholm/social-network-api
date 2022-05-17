@@ -12,7 +12,6 @@ const UserSchema = new Schema({
         required: 'Please enter an email address',
         unique: true,
         match: /.+\@.+\..+/
-        // match a valid email address (Mongoose matching validation)
     },
     thoughts: [
         {
@@ -26,8 +25,17 @@ const UserSchema = new Schema({
             ref: 'User'
         }
     ]
+},
+{
+    toJSON: {
+        virtuals: true
+    },
+    id: false
 })
 
+UserSchema.virtual('friendCount').get(function() {
+    return this.friends.length;
+});
 
 
 const User = model('User', UserSchema);
