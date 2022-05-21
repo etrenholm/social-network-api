@@ -65,7 +65,7 @@ npm start
 
 ### STEP 4. - DEBUG/FINALIZE
 * Worked through various bugs
-* Connected Moment.js to timestamp
+* Used a Getter to connect Moment.js for timestamp
 * Made various commits throughout process to save progress
 * Recorded demo video
 * Made tweaks and finished README.md
