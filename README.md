@@ -27,15 +27,15 @@ npm start
 ``` 
 
 ## Technologies
-* HTML
-* CSS
+* HTML/CSS
 * VS Code
 * JavaScript
 * Terminal
 * Git/GitHub
 * NoSQL
-* MongoDB
 * Mongoose
+* MongoDB
+* MongoDB Compass
 * Express.js
 * Dotenv
 * Insomnia
@@ -71,11 +71,11 @@ npm start
 * Made tweaks and finished README.md
 
 ## Results
-* [Demo Video]()
+* [Demo Video](https://drive.google.com/file/d/1A5JxwbDrkVbdnvXeQKlU1ZRTXuVbiU1B/view)
 * [GitHub Repository](https://github.com/etrenholm/social-network-api)
 
 ### Output Example
-![mockup]()
+![mockup](./assets/demo.gif)
 
 ## Credit
 Erica Trenholm: https://github.com/etrenholm
