@@ -41,8 +41,6 @@ npm start
 * Insomnia
 * Moment.js
 
-## References
-
 ## Process
 ### STEP 1. - SETUP
 * Created GitHub Repository with a unique name
