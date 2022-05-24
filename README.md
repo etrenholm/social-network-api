@@ -45,9 +45,9 @@ npm start
 
 ## Process
 ### STEP 1. - SETUP
-* Created GitHub Repository with a unique name.
-* Pushed first commit of files into the new Repo using Git.
-* Organized folder and file directory structure.
+* Created GitHub Repository with a unique name
+* Pushed first commit of files into the new Repo using Git
+* Organized folder and file directory structure
 * Installed Express and Mongoose
 
 ### STEP 2. - USER MODEL

@@ -29,7 +29,6 @@ const thoughtController = {
 
   // POST new thought
   addThought({ params, body }, res) {
-    console.log(params);
     Thought.create(body)
       .then(({ _id }) => {
         return User.findOneAndUpdate(
@@ -75,9 +74,7 @@ const thoughtController = {
   // UPDATE thought by id
   updateThought({ params, body }, res) {
     Thought.findOneAndUpdate(
-      { _id: params.id }, 
-      body, 
-      { new: true, runValidators: true }
+      { _id: params.id }, body, { new: true, runValidators: true }
       )
       .then(dbThoughtData => {
         if (!dbThoughtData) {
